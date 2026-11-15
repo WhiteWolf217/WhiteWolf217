@@ -28,7 +28,8 @@ I’m White Wolf. I practice offensive security in authorized labs, compete in C
 | Event | Result |
 | --- | --- |
 | **[HTB Holmes CTF 2026](https://www.hackthebox.com/events/holmes-2026)** | **111/111 tasks solved solo** · 8,725 points · 139th of 5,637 teams |
-| **FamPay Security CTF** | **1,850/1,850 points** · All six challenges solved |
+| **[Operation Cymbal: Cold Room](https://ctf.hackthebox.com/event/details/operation-cymbal-cold-room-3631)** | **18/18 challenges solved solo** · 2,075 points · 222nd of 1,677 teams |
+| **[FamPay Security CTF](https://ctf.fampay.co/scoreboard)** | **33rd place** · 1,850/1,850 points · All six challenges solved |
 | **HTB University CTF 2025** | **363rd of 1,014 teams** · 18 of 34 challenges solved with LNMIIT |
 
 ## Selected work
