@@ -1,64 +1,118 @@
 <p align="center">
-  <img src="./assets/white-wolf-banner.jpg" alt="White Wolf" width="1500">
+  <img src="./assets/white-wolf-banner.jpg" alt="White Wolf — offensive security and DevOps" width="1500">
 </p>
 
 <p align="center">
-  <strong>Offensive security · Active Directory · Web and API testing · Reverse engineering</strong><br>
-  <a href="#hack-the-box--ctfs">Hack The Box &amp; CTFs</a> ·
-  <a href="#selected-work">Selected work</a> ·
-  <a href="https://whitewolf217.github.io/white-wolf-portfolio/">Portfolio</a> ·
+  <strong>OFFENSIVE SECURITY &amp; DEVOPS</strong><br>
+  Investigate systems. Build useful tools. Understand what happens underneath.
+</p>
+
+<p align="center">
+  <a href="https://whitewolf217.github.io/white-wolf-portfolio/"><strong>Explore the portfolio ↗</strong></a> &nbsp; / &nbsp;
+  <a href="#selected-work">Selected work</a> &nbsp; / &nbsp;
+  <a href="#hack-the-box--ctfs">HTB &amp; CTFs</a> &nbsp; / &nbsp;
   <a href="https://www.linkedin.com/in/nitish-matta-b1545930b/">LinkedIn</a>
 </p>
 
-I’m White Wolf. I practice offensive security in authorized labs, compete in CTFs, and build tools for security investigations. My focus is Active Directory, web and API testing, and reverse engineering. I'm an ECE student at LNMIIT and coordinate cybersecurity workshops and CTF practice with Cipher.
+---
 
-## Hack The Box & CTFs
+I’m **White Wolf** — an offensive security practitioner, tool builder, and ECE student at LNMIIT. I work on **Active Directory, web and API security, and reverse engineering**, compete in CTFs, and lead hands-on security practice with Cipher.
 
-<a href="https://profile.hackthebox.com/profile/019c8a07-e0c4-7293-a1a2-f0b469ed1f0f?tab=badges"><img src="./assets/htb-milestones.svg" alt="Hack The Box milestones: Hacker Labs rank earned, 20 or more machines owned, and 94 Academy badges." width="960"></a>
-
-### Selected earned badges
-
-- **Comfortably Numb** · HTB Labs milestone for owning 20 machines.
-- **Stand above all** · Completed the Academy **Local Privilege Escalation** path, one of five completed paths.
-- **Enumerate & Attack!** and **AD Security Captain** · Completed Academy modules in Active Directory enumeration and Windows security.
-- **Endpoint Explorer** and **Graph invader** · Completed Academy modules in API security and GraphQL testing.
-
-### Competition results
-
-| Event | Result |
-| --- | --- |
-| **[HTB Holmes CTF 2026](https://www.hackthebox.com/events/holmes-2026)** | **111/111 tasks solved solo** · 8,725 points · 139th of 5,637 teams |
-| **[Operation Cymbal: Cold Room](https://ctf.hackthebox.com/event/details/operation-cymbal-cold-room-3631)** | **18/18 challenges solved solo** · 2,075 points · 222nd of 1,677 teams |
-| **[FamPay Security CTF](https://ctf.fampay.co/scoreboard)** | **33rd place** · 1,850/1,850 points · All six challenges solved |
-| **HTB University CTF 2025** | **363rd of 1,014 teams** · 18 of 34 challenges solved with LNMIIT |
+I’m also growing my **DevOps** experience through Kubernetes, Helm, containers, cloud infrastructure, and CI/CD, bringing that work together with security through **DevSecOps**.
 
 ## Selected work
 
-### ChainXray · Ethereum transaction investigation
+### 01 / ChainXray
+**Flagship · Ethereum transaction investigation**
 
-I built a Windows workbench for reviewing an Ethereum wallet request alongside the receipt and contract trace. It decodes supported requests and keeps investigation records in a local SQLite archive. Transaction signing stays in the wallet.
+A Windows desktop workbench that connects a wallet request to its on-chain outcome. Inspect decoded inputs, compare receipts and contract traces, and retain investigation records in a local SQLite archive. Signing stays in the wallet.
 
-<img src="./assets/chainxray-investigation.svg" alt="ChainXray investigation flow from wallet request to receipt and trace to local evidence archive." width="960">
+<a href="https://github.com/WhiteWolf217/ChainXray"><img src="./assets/chainxray-investigation.svg" alt="ChainXray: wallet request → receipt and trace → local evidence archive" width="960"></a>
 
-**Tauri · TypeScript · Ethereum · SQLite**  
-[Source code and project documentation](https://github.com/WhiteWolf217/ChainXray)
+`Tauri` `TypeScript` `Ethereum` `SQLite`  
+[Source & documentation ↗](https://github.com/WhiteWolf217/ChainXray)
 
-### SAST-JAVA · Static application security testing
+### 02 / SPECTRE
+**Red-team research · Local LLMs**
 
-A lightweight Java source scanner built with JavaParser and Maven. It flags common security issues for review, including SQL injection and unsafe command execution patterns.
+Research into coordinating authorized red-team engagements with a locally run language model. The workflow brings together planning, operator-reviewed tool runs, and engagement reporting mapped to MITRE ATT&CK.
 
-[Source code](https://github.com/WhiteWolf217/SAST-JAVA)
+[Explore SPECTRE in the portfolio ↗](https://whitewolf217.github.io/white-wolf-portfolio/#spectre)
 
-### Intrusion detection with graph neural networks
+### More hands-on work
 
-At DA-IICT, I prototyped two ways to classify network flows: offline evaluation on CICIDS2017 data and live traffic monitoring. Both model network connections as graphs so the classifier can use relationships between hosts and flows.
+| Project | What I built |
+| :--- | :--- |
+| **Graph-based intrusion detection** | DA-IICT research using CICIDS2017 and live network traffic. [Live prototype](https://github.com/WhiteWolf217/RealTime-Intrusion-Detection-GNNs) · [Offline prototype](https://github.com/WhiteWolf217/Static-Intrusion-Detection-GNNs) |
+| **OT syslog pipeline** | One-way logging through a Fend optical data diode, with a live dashboard. |
+| **MetaDefender on Kubernetes** | A Helm deployment with in-cluster PostgreSQL, storage fixes, and deployment documentation. |
+| **PhantomNet** | ESP8266-based Wi-Fi security research in controlled lab environments. |
+| **LNMHacks 8.0** | Isolated Docker challenge environments deployed and managed on Google Cloud. |
 
-[Real-time prototype](https://github.com/WhiteWolf217/RealTime-Intrusion-Detection-GNNs) · [Offline evaluation](https://github.com/WhiteWolf217/Static-Intrusion-Detection-GNNs)
+[Project details and experience ↗](https://whitewolf217.github.io/white-wolf-portfolio/#projects)
 
-## Experience & credentials
+## Hack The Box & CTFs
 
-- **OPSWAT–Pelorus · Network Engineering Intern** — Built one-way OT log forwarding and file transfer automation across a data diode. Deployed MetaDefender Core on Kubernetes.
-- **Cipher, LNMIIT · Cybersecurity Coordinator** — Lead workshops and CTF practice. Deployed isolated Docker challenge environments on Google Cloud for LNMHacks 8.0.
-- **The SecOps Group** — [Certified Network Security Practitioner](https://pentestingexams.com/certifications/essentials/certified-network-security-practitioner/) and [Certified Blue Team Practitioner](https://pentestingexams.com/certifications/essentials/certified-blue-team-practitioner/), both earned with merit.
+<a href="https://profile.hackthebox.com/profile/019c8a07-e0c4-7293-a1a2-f0b469ed1f0f?tab=badges"><img src="./assets/htb-milestones.svg" alt="Earned HTB milestones: Hacker Labs rank, 20+ machines owned, and 94 Academy badges" width="960"></a>
 
-[Hack The Box profile](https://profile.hackthebox.com/profile/019c8a07-e0c4-7293-a1a2-f0b469ed1f0f) · [Browse repositories](https://github.com/WhiteWolf217?tab=repositories)
+### Competition highlights
+
+| Event | Result | Evidence |
+| :--- | :--- | :--- |
+| **Holmes CTF 2026** | **111/111 tasks solved solo** · 8,725 points · **139 / 5,637 teams** | [Certificate](https://drive.google.com/file/d/1P8ivv7gBUrEot4oGevLgUziNCAv8m_-o/view?usp=sharing) · [Event](https://ctf.hackthebox.com/event/details/holmes-ctf-2026-the-reichenbach-directive-3504) |
+| **Operation Cymbal: Cold Room** | **18/18 challenges solved solo** · 2,075 points · **222 / 1,677 teams** | [Certificate](https://drive.google.com/file/d/1FLc2rZliHVuz48mrnDVTF3WSChX9YP7L/view?usp=sharing) · [Event](https://ctf.hackthebox.com/event/details/operation-cymbal-cold-room-3631) |
+| **FamPay Security CTF** | **33rd place** · **1,850/1,850 points** · All six challenges solved | [Scoreboard](https://ctf.fampay.co/scoreboard) |
+| **HTB University CTF 2025** | **363 / 1,014 teams** · 18/34 challenges solved with LNMIIT | Team participation |
+
+<details>
+<summary><strong>Selected earned badges · Five Academy paths completed</strong></summary>
+
+- **Comfortably Numb** — HTB Labs milestone for owning 20 machines.
+- **Stand above all** — Completed the Local Privilege Escalation path.
+- **Enumerate & Attack! · AD Security Captain** — Active Directory enumeration and Windows security modules.
+- **Endpoint Explorer · Graph invader** — API security and GraphQL testing modules.
+
+[View earned badges ↗](https://profile.hackthebox.com/profile/019c8a07-e0c4-7293-a1a2-f0b469ed1f0f?tab=badges)
+
+</details>
+
+## In the field
+
+**NOW · Cipher, LNMIIT — Cybersecurity Coordinator**  
+Mar 2026 – Present · Lead workshops, mentor peers, and run CTF practice. Deployed isolated challenge infrastructure for LNMHacks 8.0.
+
+**OPSWAT–Pelorus project — Network Engineering Intern**  
+Jul – Aug 2026 · Built one-way OT log forwarding and file-transfer automation across a data diode. Deployed MetaDefender Core with Helm and Kubernetes.
+
+**DA-IICT — Cybersecurity Research Intern**  
+May – Jul 2025 · Researched graph neural networks for intrusion detection using CICIDS2017 and live network traffic.
+
+## DevSecOps in practice
+
+| Hands-on experience | Currently developing |
+| :--- | :--- |
+| **Kubernetes & Helm** — MetaDefender Core with PostgreSQL | Kubernetes administration and CKA preparation |
+| **Docker & Google Cloud** — Isolated CTF environments | Cloud infrastructure and repeatable deployments |
+| **GitHub Actions** — This portfolio’s build and deployment | Integrating security checks into delivery pipelines |
+
+**Toolkit**  
+Security · Active Directory, Burp Suite, Wireshark, Ghidra  
+Infrastructure · Kubernetes, Helm, Docker, Google Cloud, GitHub Actions, OT data diodes  
+Development · Python, TypeScript, Java, Bash, PowerShell
+
+## Credentials & learning
+
+- **CNSP & CBTP, with merit** — The SecOps Group.
+- **CPTS & CKA** — Preparation in progress.
+- **B.Tech, Electronics and Communication Engineering** — LNMIIT, expected 2028.
+- **Amazon ML Summer School 2026** — Shortlisted among the top 3,000 applicants.
+
+---
+
+<p align="center">
+  <strong>Let’s build something.</strong><br>
+  Open to security internships, research collaborations, and CTF teams.<br><br>
+  <a href="https://whitewolf217.github.io/white-wolf-portfolio/">Portfolio</a> &nbsp; / &nbsp;
+  <a href="https://www.linkedin.com/in/nitish-matta-b1545930b/">LinkedIn</a> &nbsp; / &nbsp;
+  <a href="https://profile.hackthebox.com/profile/019c8a07-e0c4-7293-a1a2-f0b469ed1f0f">Hack The Box</a>
+</p>
